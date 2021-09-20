@@ -1,6 +1,6 @@
-package src.core.kafka.dto;
+package resultsconsumer.core.kafka.dto;
 
-import src.entities.Vote.entity.TypeVote;
+import resultsconsumer.entities.vote.entity.TypeVote;
 
 import java.util.HashMap;
 import java.util.Map;

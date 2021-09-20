@@ -1,4 +1,4 @@
-package src.config.kafka;
+package resultsconsumer.config.kafka;
 
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.common.serialization.StringDeserializer;
@@ -9,7 +9,7 @@ import org.springframework.kafka.config.ConcurrentKafkaListenerContainerFactory;
 import org.springframework.kafka.core.ConsumerFactory;
 import org.springframework.kafka.core.DefaultKafkaConsumerFactory;
 import org.springframework.kafka.support.serializer.JsonDeserializer;
-import src.core.kafka.dto.ResultsKafkaDto;
+import resultsconsumer.core.kafka.dto.ResultsKafkaDto;
 
 import java.util.HashMap;
 import java.util.Map;
