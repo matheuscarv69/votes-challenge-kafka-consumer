@@ -49,7 +49,7 @@ docker pull matheuscarv69/kafka-consumer-back-votes-challenge
 O comando abaixo executa a imagem baixada em um container, essa aplicação possui algumas env vars, atenção para as que possuem o sufixo **HOST**, neste você deve colocar o ipv4 da sua máquina.
 
 ```shell
-docker run -d -p 8081:8081 -e SERVER_PORT=8081:8081 -e KAFKA_HOST=192.168.0.115:29092 matheuscarv69/kafka-consumer-back-votes-challenge
+docker run -d -p 8081:8081 -e SERVER_PORT=8081 -e KAFKA_HOST=192.168.0.115:29092 matheuscarv69/kafka-consumer-back-votes-challenge
 ```
 
 ## 🎲 Executando a API com o docker-compose
@@ -65,13 +65,13 @@ Com esse repositório já clonado em sua máquina e com todos os pré-requisitos
 docker-compose up -d
 ```
 
-5. Com isso sua aplicação já está em execução por padrão na porta local 8080
+5. Com isso sua aplicação já está em execução por padrão na porta local 8081
 
 ## 🔧 Variáveis de Ambiente da Aplicação
 
 | ENV_VARS                      | Descrição                                                                                                                               |
 | ----------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| SERVER_PORT                   | Porta que a aplicação utilizará em sua execução. (Default: 8080)                                                                        |
+| SERVER_PORT                   | Porta que a aplicação utilizará em sua execução. (Default: 8081)                                                                        |
 | KAFKA_HOST                    | Url do Kafka. (Default: localhost: 29092)                                                                                               |
 
 ## 📝Fazendo requisições - Insomnia
