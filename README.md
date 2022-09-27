@@ -1,4 +1,4 @@
-# 🚀 Back Votes Kafka Consumer 📚
+# 🚀 Votes Kafka Consumer 📚
 
 Este projeto trata-se de um Kafka Consumer para o desafio da South System, ele consiste basicamente em uma API para realizar o consumo de um tópico do Kafka que é produzido pela API [Back Votes Challenge](https://github.com/matheuscarv69/back-votes-challenge). As tecnologias usadas para isso foram Java, Spring Boot, H2 Database, Kafka e Swagger.
 
